@@ -1,0 +1,29 @@
+{
+  "name": "reacttpl",
+  "version": "0.0.1",
+  "description": "react Template init",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixding/reactTemplate.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "tpl"
+  ],
+  "author": "djqq1987",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixding/reactTemplate/issues"
+  },
+  "homepage": "https://github.com/pixding/reactTemplate#readme",
+  "devDependencies": {
+    "url-loader": "^0.5.8",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
