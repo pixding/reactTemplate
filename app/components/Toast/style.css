@@ -1,0 +1,24 @@
+@import '../styles/variables.css';
+
+.Toast {
+  &-body{
+    position: fixed;
+    z-index: 11;
+    width: 100%;
+    top:50%;
+    left:0;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+  &-Text {
+    display: inline-block;
+    padding: 1.5rem;
+    max-width: 27rem;
+    line-height: 2.3rem;
+    font-size: var(--LUUIFontSize15);
+    background: rgba(45,55,64,0.75);
+    color:var(--Color-ffffff);
+    word-wrap: break-word;
+    border-radius: 0.5rem;
+  }
+}

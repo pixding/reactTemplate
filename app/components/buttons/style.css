@@ -1,0 +1,65 @@
+@import "../styles/variables.css";
+
+.Button {
+  width: 100%;
+  height: 4.9rem;
+  border-radius: 0.2rem;
+  border: none;
+  font-size: 1.8rem;
+
+  &-Main {
+    background-color: var(--Color-d8e2e9);
+    color: var(--Color-Base-Normal2);
+
+    &-Active {
+      background-color: var(--Color-Base-Important1);
+      color: var(--Color-ffffff);
+    }
+
+    &-Active:active {
+      color: #b2b2b2;
+      background-color: #b05431;
+    }
+
+    &-InActive {
+      opacity: 0.5;
+      background-color: var(--Color-Base-Important1);
+      color: var(--Color-ffffff);
+    }
+  }
+
+  &-Secondary {
+    background-color: #fff;
+    color: var(--Color-Base-Normal2);
+    border: 1px solid var(--Color-d8e2e9);
+
+    &-Active {
+      background-color: #fff;
+      color: var(--Color-Base-Important1);
+      border: 1px solid var(--Color-Base-Important1);
+    }
+
+    &-Active:active {
+      background-color: #fed7c7;
+    }
+  }
+
+  &-White {
+    background-color: var(--Color-ffffff);
+    color: var(--Color-Base-Important2);
+
+    & .Button-SubName {
+      display: block;
+      color: var(--Color-Base-Normal2);
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.fixed-btn {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: 0;
+}

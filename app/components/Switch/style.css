@@ -1,0 +1,32 @@
+$checkedColor:#64bd63;
+
+.Switch{
+  border-radius: 1rem;
+  width: 56px;
+  height: 31px;
+  position: relative;
+  border:1px solid #dfdfdf;
+  background: #fdfdfd;
+  display: inline-block;
+  &:after {
+    content:"";
+    display: block;
+    position: absolute;
+    left:0px;
+    top:0px;
+    width: 29px;
+    height: 29px;
+    border-radius: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    background: #fff;
+    transition: left 0.3s;
+  }
+  &.checked{
+    background: $checkedColor;
+    border-color: $checkedColor;
+    box-shadow: $checkedColor 0 0 0 16px inset;
+  }
+  &.checked:after{
+    left:26px;
+  }
+}
