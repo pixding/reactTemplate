@@ -34,6 +34,8 @@
     "node-sass": "^4.5.3",
     "postcss-loader": "^2.0.6",
     "prop-types": "^15.5.10",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.17.0",
     "url-loader": "^0.5.8",
